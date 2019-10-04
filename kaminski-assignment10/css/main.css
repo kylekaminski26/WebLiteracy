@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+@media(max-width: 2141px) and (min-width: 722px) {
+	.odd {
+        background-color: #ccc;
+      }
+
+    .even {
+        background-color: #eee;
+      }
+	
+	.row {
+		font-size: 18px;
+		background-color: white;
+		margin: 5px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	
+	.col-lg-1 {
+		color: red;
+		font-weight: bold;
+		font-size: 24px;
+		width: 100%;
+	}
+	
+	.contents {
+		color: green;
+		font-weight: bold;
+	}
+
+	.align-center {
+		display: block;
+		margin: 0px auto;
+	}
+
+	.title {
+		text-align: center;
+		color: #FF0000;
+		font-family: 'Shadows Into Light', cursive;
+	}
+
+	.credits {
+		text-align: center;
+		font-style: italic;
+		color: #00FF00;
+	}
+
+	.img {
+		width: 25%;
+		height: 25%;
+	}
+}
+
+@media(max-width: 721px) and (min-width: 1px) {
+	.odd {
+        background-color: #ccc;
+      }
+
+    .even {
+        background-color: #eee;
+      }
+	
+	.row {
+		font-size: 18px;
+		background-color: white;
+		margin: 5px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	
+	.col-lg-1 {
+		color: red;
+		font-weight: bold;
+		font-size: 24px;
+		width: 100%;
+	}
+	
+	.contents {
+		color: green;
+		font-weight: bold;
+	}
+
+	.align-center {
+		display: block;
+		margin: 0px auto;
+	}
+
+	.title {
+		text-align: center;
+		color: #FF0000;
+		font-family: 'Shadows Into Light', cursive;
+	}
+
+	.credits {
+		text-align: center;
+		font-style: italic;
+		color: #00FF00;
+	}
+
+	.img {
+		width: 25%;
+		height: 25%;
+	}
+}

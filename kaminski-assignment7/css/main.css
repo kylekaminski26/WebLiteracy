@@ -1,0 +1,93 @@
+.content {
+	position: absolute;
+	right: 5px;
+	top: 20%;
+	height: 50%;
+	width: 45%;
+	padding: 25px;
+	border: 5px solid;
+	background: #00DD00;
+}
+.top {
+	position: absolute;
+	font-size: 24px;
+	left: 5px;
+	right: 5px;
+	text-align: center;
+	height: 100px;
+	border: 5px solid;
+	background: #DD0000;
+	font-weight: bold;
+	font-family: 'Century Gothic';
+}
+.left {
+	position: absolute;
+	left: 5px;
+	top: 20%;
+	height: 50%;
+	width: 45%;
+	padding: 25px;
+	border: 5px solid;
+	background: #0000DD;
+}
+.sideheader {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+.sidetext {
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+.contentheader {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+.contenttext {
+	font-size: 24px;
+	text-align: left;
+}
+.footerA {
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	width: 45%;
+	text-align: left;
+	font-weight: bold;
+	border: 2px dotted;
+	bottom: -500px;
+	height: 550px;
+	padding: 25px;
+	background: #DDDD00;
+}
+.footerB {
+	position: absolute;
+	left: 50%;
+	right: 5px;
+	width: 45%;
+	text-align: left;
+	font-weight: bold;
+	border: 2px dotted;
+	bottom: -500px;
+	height: 550px;
+	padding: 25px;
+	background: #DDDD00;
+}
+.sidebar {
+	height: 100%;
+	width: 200px;
+	left: 0;
+	font-weight: bold;
+	background-color: #C8C8C8;
+	overflow-x: hidden;
+	padding-top: 50px;
+}
+img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

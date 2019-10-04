@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Amazon Alexa</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="top"> <!-- Content for the top of the page (only the title) -->
+		<h1>Amazon Alexa</h1>
+	</div>
+	<div class="left"> <!-- Content for the sidebar -->
+		<p class="sideheader">About</p>
+		<img src="img/AmazonAlexa.jpg" alt="Amazon Alexa" title="Amazon Alexa" /> <!-- Provides picture -->
+		<p class="sidetext">The Amazon Alexa is an electronic device that provides real-time answers to a user's question or command.</p>
+		<p class="sidetext">Order now by filling out the form below!</p>
+	</div>
+	<div class="content">
+		<iframe width="650" height="350" src="https://www.youtube.com/embed/aJETzUVSlNs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Embedded Youtube video -->
+	</div>
+	<form action="http://www.example.com/login.php" method="get">
+	<div class="footerA"> <!-- Main content for the webpage -->
+		<fieldset> <!-- Provides a cleaner format for the form layout -->
+			<legend>Personal/Shipping Information</legend>
+				<p>First/Last Name:<input type="text" name="firstLastName" size="20" maxlength="30"/></p>
+				<p>Mailing Address:<input type="text" name="mailingAddress" size="30" maxlength="30"/></p>
+				<p>Email Address:<input type="text" name="emailAddress" size="30" maxlength="30"/></p>
+				<p>DOB: <!-- This is captured through a Drop Down box -->
+				<input type="text" name="year" size="5" maxlength="4" />
+				<select name="month"> <!-- User selects their birth month -->
+					<option value="jan">January</option>
+					<option value="feb">February</option>
+					<option value="mar">March</option>
+					<option value="apr">April</option>
+					<option value="may">May</option>
+					<option value="jun">June</option>
+					<option value="jul">July</option>
+					<option value="aug">August</option>
+					<option value="sep">September</option>
+					<option value="oct">October</option>
+					<option value="nov">November</option>
+					<option value="dec">December</option>
+				</select>
+				<input type="text" name="date" size="1" maxlength="2" />
+				</p>
+		</fieldset>
+		<fieldset>
+			<legend>Credit Card Details</legend>
+				<p>Name:<input type="text" name="CCName" size="15" maxlength="30"/></p>
+				<p>Credit Card Number:<input type="text" name="CCNumber" size="15" maxlength="16"/></p>
+				<p>Expiration Date: <!-- User provides both expiration month and year -->
+				<input type="text" name="date" size="1" maxlength="2" />
+				<label>/</label>
+				<input type="text" name="date" size="1" maxlength="2" />
+				</p>
+		</fieldset>
+	</div>
+	<div class="footerB"> <!-- Main content for the webpage -->
+		<fieldset>
+		<legend>Create Account</legend>
+			<p>Username:<input type="text" name="CAUsername" size="15" maxlength="30"/></p>
+			<p>Password:<input type="password" name="CAPassword" size="15" maxlength="30"/></p> <!-- Protected using password tag -->
+			<input type="checkbox" name="CASignup" value="signupNewsletter" checked="checked" /> Signup for Newsletter<br /> <!-- Autochecked when website is loaded -->
+		</fieldset>
+		<fieldset>
+			<legend>Comments</legend>
+			<textarea name="comments" cols="40" rows="4">This website is amazing!</textarea> <!-- Autofills the comments box for the user -->
+		</fieldset>
+		<input type="submit" value="Submit Form" /> <!-- Submits the form to the dummy URL -->
+		<p>*Website created by Kyle Kaminski*</p>
+	</div>
+	</form>
+</body>
+</html>
