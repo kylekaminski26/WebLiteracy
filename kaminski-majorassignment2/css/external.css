@@ -1,0 +1,30 @@
+/* External CSS Library not covered in class (I made my own) */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light'); /* Google Font #1 */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai'); /* Google Font #2 */
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Kyle Kaminski's own external style sheet.
+ * This style sheet customizes the scrollbar on the side of the page (NOT the scrollbar in the individual <div>).
+ */
+
+body::-webkit-scrollbar-thumb { /* Scrollbar. */
+    background-color:#DD0000;
+    border-radius:8px;
+    border:4px solid #000000;
+}
+
+body::-webkit-scrollbar { /* Scrollbar width. */
+    background-color:#DDDDDD;
+    width:24px;
+}
+
+body::-webkit-scrollbar-track { /* Scrollbar track. */
+    background-color:#DDDDDD;
+	border: 4px solid #000000;
+}
+
+body::-webkit-scrollbar-button { /* Arrow buttons on the top and bottom of the scrollbar. */
+	display:none;
+}
