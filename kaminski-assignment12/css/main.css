@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+@media (min-width: 768px) {
+	.Top {
+		position: absolute;
+		top: 15%;
+		left: 5px;
+		right: 0;
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive;
+		height: 150px;
+	}
+	
+	.Content {
+		position: absolute;
+		left: 5px;
+		top: 25%;
+		height: 195%;
+		width: 45%;
+		padding: 25px;
+		border: 5px solid;
+		background: #DD0000;
+		overflow: auto;
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	.Background {
+		position: absolute;
+		right: 5px;
+		top: 25%;
+		height: 45%;
+		width: 50%;
+		padding: 25px;
+		border: 5px solid;
+		background: #00DD00;
+		overflow: auto;
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	.Collect {
+		position: absolute;
+		right: 5px;
+		top: 75%;
+		height: 45%;
+		width: 50%;
+		padding: 25px;
+		border: 5px solid;
+		background: #0000DD;
+		overflow: auto;
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+		color: grey;
+	}
+	
+	.About {
+		position: absolute;
+		right: 5px;
+		top: 125%;
+		height: 45%;
+		width: 50%;
+		padding: 25px;
+		border: 5px solid;
+		background: #DDDD00;
+		overflow: auto;
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	.Contact {
+		position: absolute;
+		right: 5px;
+		top: 175%;
+		height: 45%;
+		width: 50%;
+		padding: 25px;
+		border: 5px solid;
+		background: #00DDDD;
+		overflow: auto;
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	.col-lg-1 {
+		display: none;
+		border: solid;
+	}
+	
+	.navbar {
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		font-size: 18px;
+		width: 30%;
+	}
+	
+	.panel {
+		width: 45%;
+		border: solid;
+		font-weight: bold;
+		font-size: 24px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	
+	.table {
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		border: dotted;
+		font-size: 18px;
+		width: 50%;
+	}
+	
+	.header {
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: bold;
+		border: solid;
+		font-size: 48px;
+		width: 50%;
+	}
+}
